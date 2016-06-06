@@ -118,6 +118,26 @@ a:hover, a:focus {
 	content: "\e004";
 }
 
+.blog_context{
+	line-height: 1.5em;
+	font-size: 0.9em;
+	padding:40px;
+	width: 50%;
+	margin: 0 auto;
+
+}
+
+/*.blog_context img{
+	margin: 1em 8em;
+}
+
+.blog_context p {
+	margin-left:128px;
+	text-align: justify;
+	max-width: 500px;
+
+}
+*/
 .description {
 	padding: 6em 8em;
 	overflow: hidden;
@@ -238,6 +258,9 @@ svg.polaroid rect {
 		-webkit-column-gap: 2em;
 		column-gap: 2em;
 	}
+	
+
+
 }
 
 
@@ -254,6 +277,13 @@ svg.polaroid rect {
 	.codrops-header svg.polaroid {
 		height: 200px;
 	}
+	.blog_context{
+		width: 100%;
+
+	}
+	img{
+		width: 100%;
+	}
 }
 
 
@@ -266,6 +296,13 @@ svg.polaroid rect {
 	.codrops-icon:before {
 		font-size: 160%;
 		line-height: 2;
+	}
+	.blog_context{
+		width: 100%;
+	}
+
+	img{
+		width: 100%;
 	}
 
 }

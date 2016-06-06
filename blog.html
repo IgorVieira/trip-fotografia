@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Trip Fotografia</title>
+		<meta name="keywords" content="scattered polaroids, image gallery, javascript, random rotation, 3d, backface, flat design" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/dist/hamburgers.css">
+		<script src="js/modernizr.min.js"></script>
+		<script src="http://code.jquery.com/jquery-1.9.0.js"></script>
+		<script src="js/file.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Top Navigation -->
+			<div class="codrops-top clearfix">
+				<nav>
+					<ul>
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="blog.html">Blog</a>
+						</li>
+						<li>
+							<a href="about.html">Sobre</a>
+						</li>						
+						<li>
+							<a href="contact.html">Contato</a>
+						</li>
+					</ul>
+					<div class="handle">
+						<button class="hamburger" type="button">
+						  <span class="hamburger-box">
+						    <span class="hamburger-inner"></span>
+						  </span>
+						</button>
+					</div>
+				</nav>
+			</div>
+			
+			<section class="blog_context">
+				<img src="img/example-blog/example1.jpg" height="300" width="550" >
+				<br>
+				<h1>First Post</h1>
+				<p>XOXO vinyl mustache, listicle twee cronut chicharrones roof party sustainable health goth shoreditch food truck. Normcore kickstarter quinoa asymmetrical, messenger bag cray put a bird on it mixtape yr lumbersexual gluten-free keffiyeh listicle schlitz. Pickled flannel gentrify blog keffiyeh 90's. Tumblr kale chips 8-bit leggings deep v bushwick.<strong>Tumblr kale chips 8-bit leggings deep v bushwick.</strong>.  Pickled flannel gentrify blog keffiyeh 90's.</p>
+				<h3><a href="#">Mais...</a></h3>
+				<hr>
+				
+			</section>
+			<section class="blog_context">
+				<img src="img/example-blog/example2.jpg" height="300" width="550" >
+				<br>
+				<h1>Second Post</h1>
+				<p>XOXO vinyl mustache, listicle twee cronut chicharrones roof party sustainable health goth shoreditch food truck. Normcore kickstarter quinoa asymmetrical, messenger bag cray put a bird on it mixtape yr lumbersexual gluten-free keffiyeh listicle schlitz. Pickled flannel gentrify blog keffiyeh 90's. Tumblr kale chips 8-bit leggings deep v bushwick.<strong>Tumblr kale chips 8-bit leggings deep v bushwick.</strong>.  Pickled flannel gentrify blog keffiyeh 90's.</p>
+				<h3><a href="#">Mais...</a></h3>
+				<hr>
+				
+			</section>
+
+			<section class="blog_context">
+				<img src="img/example-blog/example3.jpg" height="300" width="550" >
+				<br>
+				<h1>Third Post</h1>
+				<p>XOXO vinyl mustache, listicle twee cronut chicharrones roof party sustainable health goth shoreditch food truck. Normcore kickstarter quinoa asymmetrical, messenger bag cray put a bird on it mixtape yr lumbersexual gluten-free keffiyeh listicle schlitz. Pickled flannel gentrify blog keffiyeh 90's. Tumblr kale chips 8-bit leggings deep v bushwick.<strong>Tumblr kale chips 8-bit leggings deep v bushwick.</strong>.  Pickled flannel gentrify blog keffiyeh 90's.</p>
+				
+				<h3><a href="#">Mais...</a></h3>
+				<hr>
+				
+			</section>
+			
+			
+			
+		</div><!-- /container -->
+		<script src="js/classie.js"></script>
+		<script src="js/photostack.js"></script>
+		<script>
+			// [].slice.call( document.querySelectorAll( '.photostack' ) ).forEach( function( el ) { new Photostack( el ); } );
+			
+			new Photostack( document.getElementById( 'photostack-1' ), {
+				callback : function( item ) {
+					//console.log(item)
+				}
+			} );
+			new Photostack( document.getElementById( 'photostack-2' ), {
+				callback : function( item ) {
+					//console.log(item)
+				}
+			} );
+			new Photostack( document.getElementById( 'photostack-3' ), {
+				callback : function( item ) {
+					//console.log(item)
+				}
+			} );
+		</script>
+	</body>
+</html>
