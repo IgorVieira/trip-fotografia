@@ -241,6 +241,20 @@ svg.polaroid rect {
 	text-align: left;
 }
 
+
+.banner-box-1 {
+  background-image: url('../img/background_about.jpg');
+  background-repeat: no-repeat;
+  padding: 40px 0 40px 0;
+  background-size: 100% 150vh;
+  height: 400px;
+  color:#fff;
+  text-align: center;
+  background-attachment: fixed;
+  overflow: hidden;
+
+}
+
 @media screen and (min-width: 60em) {
 	.columns {
 		-moz-column-count: 2;
@@ -258,7 +272,8 @@ svg.polaroid rect {
 		column-gap: 2em;
 	}
 	
-
+	
+	
 
 }
 
@@ -290,6 +305,7 @@ svg.polaroid rect {
 	}
 	
 	
+	
 }
 
 
@@ -315,7 +331,8 @@ svg.polaroid rect {
 		width: 100%;
 		height: auto;
 	}
-
+	
+	
 }
 
 video{
@@ -386,15 +403,3 @@ nav ul li:hover{
 }
 
 
-.banner-box-1 {
-  background-image: url('../img/background_about.jpg');
-  background-repeat: no-repeat;
-  padding: 40px 0 40px 0;
-  background-size: 100% 100vh;
-  height: 400px;
-  color:#fff;
-  text-align: center;
-  background-attachment: fixed;
-  overflow: hidden;
-
-}
