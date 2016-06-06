@@ -127,17 +127,16 @@ a:hover, a:focus {
 
 }
 
-/*.blog_context img{
-	margin: 1em 8em;
-}
-
-.blog_context p {
-	margin-left:128px;
-	text-align: justify;
-	max-width: 500px;
+.about_context{
+	line-height: 1.5em;
+	font-size: 0.9em;
+	padding:40px;
+	width: 50%;
+	margin: 0 auto;
 
 }
-*/
+
+
 .description {
 	padding: 6em 8em;
 	overflow: hidden;
@@ -283,6 +282,7 @@ svg.polaroid rect {
 	}
 	img{
 		width: 100%;
+		height: auto;
 	}
 }
 
@@ -303,6 +303,7 @@ svg.polaroid rect {
 
 	img{
 		width: 100%;
+		height: auto;
 	}
 
 }
@@ -318,8 +319,10 @@ video{
   height: auto;
 }
 
+
+
 nav ul{
-	background-color: #FFFFFE;;
+	background-color: #F5F5F4;;
 	overflow: hidden;
 	color: #081004;
 	padding: 0;
@@ -370,4 +373,18 @@ nav ul li:hover{
 	.handle{
 		display: block;
 	}
+}
+
+
+.banner-box-1 {
+  background-image: url('../img/background_about.jpg');
+  background-repeat: no-repeat;
+  padding: 40px 0 40px 0;
+  background-size: 1300px 750px;
+  height: 400px;
+  color:#fff;
+  text-align: center;
+  background-attachment: fixed;
+  overflow: hidden;
+
 }
