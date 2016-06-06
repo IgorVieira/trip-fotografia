@@ -280,10 +280,16 @@ svg.polaroid rect {
 		width: 100%;
 
 	}
+	.about_context{
+		width: 100%;
+
+	}
 	img{
 		width: 100%;
 		height: auto;
 	}
+	
+	
 }
 
 
@@ -300,7 +306,11 @@ svg.polaroid rect {
 	.blog_context{
 		width: 100%;
 	}
+	
+	.about_context{
+		width: 100%;
 
+	}
 	img{
 		width: 100%;
 		height: auto;
@@ -380,7 +390,7 @@ nav ul li:hover{
   background-image: url('../img/background_about.jpg');
   background-repeat: no-repeat;
   padding: 40px 0 40px 0;
-  background-size: 1300px 750px;
+  background-size: 100% 100vh;
   height: 400px;
   color:#fff;
   text-align: center;
