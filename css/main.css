@@ -483,3 +483,26 @@ input[type="submit"], .btn:hover{
 	text-decoration:none;
 	padding:1em 2em;
 }
+
+
+
+.topo {
+  cursor: pointer;
+  position: fixed;
+  bottom: 3.5em;
+  right: 3.5em;
+  display: none;
+  z-index: 50;
+  background: rgba(0,0,0,0.6);
+  border-color: #fff;
+  border-radius: 2px solid;
+  color: #fff;
+  padding: 1em 2rem;
+
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+
+
