@@ -35,6 +35,10 @@ a:hover, a:focus {
 	color: #a7a0a2;
 }
 
+img{
+	width: 100%;
+	height: auto;
+}
 .nav-header {
 	margin: 0 auto;
 	padding: 10em 5em;
@@ -263,10 +267,6 @@ a:hover, a:focus {
 		width: 100%;
 
 	}
-	img{
-		width: 100%;
-		height: auto;
-	}
 	
 	
 	
@@ -291,10 +291,7 @@ a:hover, a:focus {
 		width: 100%;
 
 	}
-	img{
-		width: 100%;
-		height: auto;
-	}
+	
 	
 	
 }
@@ -404,6 +401,8 @@ nav ul li:hover{
 	-webkit-filter: none;
     filter: none;
 }
+
+
 
 
 .site-footer { border-top: 1px solid #e8e8e8; padding: 40px 0; }
